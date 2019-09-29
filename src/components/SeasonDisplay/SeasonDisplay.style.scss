@@ -1,0 +1,35 @@
+.icon-right {
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+}
+
+.icon-left {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+}
+
+.sun {
+	color: rgb(248, 183, 109);
+}
+
+.snowflake {
+	color: rgb(142, 248, 239);
+}
+
+.season-display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: #fff;
+
+	&.summer {
+		background-color: red;
+	}
+
+	&.winter {
+		background-color: rgb(3, 3, 49);
+	}
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import SeasonDisplay from "./components/SeasonDisplay/SeasonDisplay";
-import Loader from "./components/Loading/Loading";
-import ErrorScreen from "./components/Error/ErrorScreen";
+import Loader from "./components/Loader/Loading";
+import ErrorScreen from "./components/ErrorScreen/ErrorScreen";
 
 class App extends React.Component {
 	constructor(props) {
